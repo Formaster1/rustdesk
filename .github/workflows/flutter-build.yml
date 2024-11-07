@@ -1967,7 +1967,7 @@ jobs:
   #         files: |
   #           flatpak/rustdesk-${{ env.VERSION }}-${{ matrix.job.arch }}${{ matrix.job.suffix }}.flatpak
 
-  # build-rustdesk-web:
+  build-rustdesk-web:
     if: False
     name: build-rustdesk-web
     runs-on: ubuntu-20.04
